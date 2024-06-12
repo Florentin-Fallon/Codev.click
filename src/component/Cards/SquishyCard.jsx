@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 const SquishyCard = ({
   namePackage,
   price,
   list,
   lists,
+  threeList,
   button,
+  url,
 }) => {
   return (
     <section className=" px-4 py-12">
@@ -15,7 +18,9 @@ const SquishyCard = ({
         price={price}
         list={list}
         lists={lists}
+        threeList={threeList}
         button={button}
+        url={url}
         />
       </div>
     </section>
@@ -27,7 +32,9 @@ const Card = ({
   price,
   list,
   lists,
+  threeList,
   button,
+  url,
 }) => {
   return (
     <motion.div
@@ -65,7 +72,7 @@ const Card = ({
         <ul>
           <li className="flex">
             <svg 
-              class="w-6 h-6 text-gray-800 dark:text-white mr-2 mb-6" 
+              class="w-6 h-6 text-gray-800 dark:text-white mr-2 mb-4" 
               aria-hidden="true" 
               xmlns="http://www.w3.org/2000/svg" 
               width="24" 
@@ -85,7 +92,7 @@ const Card = ({
           </li>
           <li className="flex">
             <svg 
-                class="w-6 h-6 text-gray-800 dark:text-white mr-2" 
+                class="w-6 h-6 text-gray-800 dark:text-white mr-2 mb-4" 
                 aria-hidden="true" 
                 xmlns="http://www.w3.org/2000/svg" 
                 width="24" 
@@ -103,11 +110,31 @@ const Card = ({
             </svg>
             {lists}
           </li>
+          <li className="flex">
+            <svg
+              class="w-6 h-6 text-gray-800 dark:text-white mr-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 11.917 9.724 16.5 19 7.5"
+              />
+            </svg>
+            {threeList}
+          </li>
         </ul>
       </div>
-      <button className="absolute bottom-4 left-4 right-4 z-20 rounded border-2 border-white bg-white py-2 text-center font-mono font-black uppercase text-neutral-800 backdrop-blur transition-colors hover:bg-white/30 hover:text-white">
+      <Link to={url}><button className="absolute bottom-4 left-4 right-4 z-20 rounded border-2 border-white bg-white py-2 text-center font-mono font-black uppercase text-neutral-800 backdrop-blur transition-colors hover:bg-white/30 hover:text-white">
         {button}
-      </button>
+      </button></Link>
       <Background />
     </motion.div>
   );

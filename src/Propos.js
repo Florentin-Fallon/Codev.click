@@ -1,13 +1,17 @@
 import React from 'react'
-import Header from './component/Header/Header'
+import FooterComponent from './component/Footer/FooterComponent'
 
 function propos() {
   return (
     <div>
         <div>
-            <Header />
+            <div className='mb-4 mt-8 flex justify-center'>
+                <h1 className="text-[30px] text-center font-semibold border-b-2 w-auto pb-2">Qui suis-je ?</h1>
+            </div>
         </div>
-        <h1 className='text-black text-center'>propos</h1>
+        <div>
+          <FooterComponent />
+        </div>
     </div>
   )
 }

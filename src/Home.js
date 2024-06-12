@@ -1,19 +1,27 @@
 import React from "react";
-import Header from "./component/Header/Header";
-import LandingPage from "./component/LandingPage/LandingPage";
 import Produits from "./component/Section/Produits";
+import { FloatButton } from 'antd';
+import Codev from "./component/Section/Codev";
+import Realisation from "./component/Section/Realisation";
+import FooterComponent from "./component/Footer/FooterComponent";
 
 function Home() {
   return (
-    <div>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <LandingPage />
-      </div>
+    <div style={{
+      height: "auto",
+    }}>
+      <FloatButton.BackTop />
       <div>
         <Produits />
+      </div>
+      <div>
+        <Codev />
+      </div>
+      <div>
+        <Realisation />
+      </div>
+      <div>
+        <FooterComponent/>
       </div>
     </div>
   )

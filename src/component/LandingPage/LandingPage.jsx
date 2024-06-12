@@ -21,7 +21,7 @@ const BubbleText = () => {
         const rightNeighbor = this.nextElementSibling;
 
         if (leftNeighbor) {
-          leftNeighbor.style.fontWeight = "500";
+          leftNeighbor.style.fontWeight = "100";
           leftNeighbor.style.color = "rgb(199, 210, 254)";
         }
         if (rightNeighbor) {

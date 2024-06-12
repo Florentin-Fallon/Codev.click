@@ -15,6 +15,7 @@ function Produits() {
                         list='Optimisation de la performance'
                         lists='Refonte du design'
                         button='En savoir +' 
+                        url='/amelioration'
                     />
                 </div>
                 <div>
@@ -23,7 +24,9 @@ function Produits() {
                         price='200€'
                         list="Conception personnalisée"
                         lists='Médias sociaux'
+                        threeList='Site vitrine de qualité'
                         button='En savoir +'
+                        url='/decouverte'
                     />
                 </div>
                 <div>
@@ -34,6 +37,7 @@ function Produits() {
                         list='Conception sur mesure'
                         lists='Intégration de fonctionnalités'
                         button='En savoir +'
+                        url='/premium'
                     />
                 </div>
         </div>

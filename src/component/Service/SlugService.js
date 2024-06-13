@@ -9,7 +9,7 @@ const slugToTitleDictionary = {
     'remboursement': 'Politique de remboursement',
     'services': 'Nos Services',
     'contact': 'Contact',
-    'propos': 'À propos',
+    'propos': "Bienvenue à l'agence !",
     'realisations': 'Nos Réalisations',
     '': 'Accueil'
 };

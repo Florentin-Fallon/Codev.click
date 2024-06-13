@@ -1,11 +1,12 @@
 import React from 'react'
 import SquishyCard from '../Cards/SquishyCard'
+import { Link } from 'react-router-dom'
 
 function Produits() {
   return (
     <div className='my-16'>
         <div className='justify-center flex'>
-            <h1 className='text-black text-[40px] font-semibold pb-2 border-b-2 w-62'>Nos Services</h1>
+            <Link to="/services"><h1 className='text-black text-[40px] font-semibold pb-2 border-b-2 w-62'>Nos Services</h1></Link>
         </div>
             <div className='flex justify-center gap-8'>
                 <div>

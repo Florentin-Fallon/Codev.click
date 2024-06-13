@@ -7,8 +7,10 @@ function propos() {
     <div>
       <FloatButton.BackTop />
         <div>
-            <div className='pb-4 pt-14 flex justify-center'>
-                <h1 className="text-[30px] text-center font-semibold border-b-2 w-auto pb-2">Bienvenue à l'agence !</h1>
+            <div className='pb-4 pt-14 flex justify-center bg-[url("./component/images/forme.png")] bg-cover bg-center bg-local overflow-hidden'>
+              <div className="h-80">
+                <h1 className="text-[30px] text-center text-white font-semibold border-b-2 w-auto pb-2">Bienvenue à l'agence !</h1>
+              </div>
             </div>
         </div>
         <div>

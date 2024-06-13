@@ -7,7 +7,7 @@ const Breadcrumbs = () => {
     const pathnames = location.pathname.split("/").filter((x) => x);
 
     return(
-        <nav className="text-black my-4 absolute ml-2 ">
+        <nav className="text-white my-4 absolute ml-2 ">
             <ul className="flex">
                 <li>
                     <Link to="/" className="hover:text-indigo-500 hover:underline hover:font-semibold font-semibold">Accueil</Link>

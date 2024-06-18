@@ -2,7 +2,7 @@
   "name": "codev.click",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Florentin-Fallon.github.io/Codev.click",
+  "homepage": "https://www.codev.click",
   "dependencies": {
     "@coreui/coreui": "^5.0.2",
     "@coreui/react": "^5.1.0",

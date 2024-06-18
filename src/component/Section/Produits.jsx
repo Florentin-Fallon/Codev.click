@@ -12,9 +12,10 @@ function Produits() {
                 <div>
                     <SquishyCard 
                         namePackage='Pack Amélioration'
-                        price='100€'
+                        price='200€'
                         list='Optimisation de la performance'
                         lists='Refonte du design'
+                        threeList='Amélioration des fonctionnalités'
                         button='En savoir +' 
                         url='/amelioration'
                     />
@@ -22,23 +23,12 @@ function Produits() {
                 <div>
                     <SquishyCard
                         namePackage='Pack Découverte'
-                        price='200€'
+                        price='500€'
                         list="Conception personnalisée"
-                        lists='Médias sociaux'
-                        threeList='Site vitrine de qualité'
+                        lists='Fonctionnalités avancées'
+                        threeList='Intégration des réseaux sociaux'
                         button='En savoir +'
                         url='/decouverte'
-                    />
-                </div>
-                <div>
-                    <SquishyCard
-                        namePackage='Pack Premium'
-                        price='500€'
-                        description='Conception haut de gamme'
-                        list='Conception sur mesure'
-                        lists='Intégration de fonctionnalités'
-                        button='En savoir +'
-                        url='/premium'
                     />
                 </div>
         </div>

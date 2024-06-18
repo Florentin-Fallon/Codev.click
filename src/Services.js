@@ -27,19 +27,9 @@ function Services() {
             imgSrc={require('../src/component/images/pack-decouverte.png')}
             imgAlt='Pack Découverte'
             title='Pack Découverte'
-            description='Nous vous aidons à créer un site vitrine attrayant et professionnel, afin de présenter et valoriser votre activité de manière efficace.'
+            description='Nous vous aidons à créer un site vitrine de plusieurs pages attrayant et professionnel, afin de présenter et valoriser votre activité de manière efficace.'
             button='En savoir plus'
             url='/decouverte'
-          />
-        </div>
-        <div className='transition duration-300 transform hover:scale-105'>
-          <CardWeb 
-            imgSrc={require('../src/component/images/pack-premium.png')}
-            imgAlt='Pack Premium'
-            title='Pack Premium'
-            description="Optez pour notre Pack Premium et bénéficiez d'un site web complet de 10 pages, conçu pour répondre parfaitement à vos besoins. Nous créons un site attrayant et fonctionnel pour valoriser votre activité et maximiser votre présence en ligne."
-            button='En savoir plus'
-            url='/premium'
           />
         </div>
           <div>

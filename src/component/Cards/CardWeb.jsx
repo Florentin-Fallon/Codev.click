@@ -11,7 +11,7 @@ function CardWeb({
 }) {
   return (
     <div>
-        <div className='my-24 justify-center flex gap-24 mx-12 rounded-xl items-center shadow-xl'>
+        <div className='my-24 justify-center flex gap-24 mx-12 rounded-xl items-center shadow-xl bg-white'>
         <div className='items-center bg-cover'>
             <img src={imgSrc} alt={imgAlt} className='w-72 p-2 rounded-3xl'/>
         </div>

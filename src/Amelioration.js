@@ -6,8 +6,8 @@ function Amelioration() {
   return (
     <div>
         <FloatButton.BackTop />
-        <div>
-            <div className='m-12 flex justify-center'>
+        <div className='flex justify-center pb-24 pt-24'>
+            <div>
                 <h1 className="text-[30px] text-center font-semibold border-b-2 w-auto pb-2">Pack Amélioration</h1>
             </div>
         </div>

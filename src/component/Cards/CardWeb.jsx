@@ -16,7 +16,7 @@ function CardWeb({
             <img src={imgSrc} alt={imgAlt} className='w-72 p-2 rounded-3xl'/>
         </div>
         <div className='flex-col flex justify-center p-12 w-[50%]'>
-            <h1 className='text-black text-[30px] font-semibold pb-2 border-b-2 w-64 justify-center'>{title}</h1>
+            <h1 className='text-black text-[30px] font-semibold pb-2 border-b-2 w-auto justify-center'>{title}</h1>
             <p className='tracking-wide text-justify leading-loose pt-6'>{description}</p>
             <div className='flex justify-center'>
                 <Link to={url}><button className='bg-indigo-500 hover:bg-indigo-300 text-white px-4 py-2 mt-8 rounded-md'>{button}</button></Link>

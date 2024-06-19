@@ -6,7 +6,7 @@ const Breadcrumbs = () => {
     const location = useLocation();
     const pathnames = location.pathname.split("/").filter((x) => x);
 
-    const specialPages = ["/confidentialites", "/mentions", "/condition", "/remboursement"];
+    const specialPages = ["/confidentialites", "/mentions", "/condition", "/remboursement", "/contact", "/decouverte", "/amelioration"];
 
     const isSpecialPage = specialPages.includes(location.pathname);
 
@@ -15,7 +15,7 @@ const Breadcrumbs = () => {
         <nav className={`my-4 absolute ml-2 ${isSpecialPage ? 'text-black' : 'text-white'}`}>
             <ul className="flex">
                 <li>
-                    <Link to="/" className="hover:text-indigo-500 hover:underline hover:font-semibold font-semibold">Accueil</Link>
+                    <Link to="/" className="hover:text-white hover:underline hover:font-semibold font-semibold">Accueil</Link>
                 </li>
                 {
                     pathnames.map((value, index) => {

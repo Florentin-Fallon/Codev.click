@@ -7,7 +7,7 @@ function CardProfile({
     Post
 }) {
   return (
-    <div className='w-[20%] h-auto py-8'>
+    <div className='w-[20%] h-auto py-8 transition duration-300 transform hover:scale-110'>
         <div className='h-auto'>
             <img src={imgSrc} alt={imgAlt} className='rounded-t-xl' />
         </div>

@@ -3,6 +3,8 @@ import FooterComponent from './component/Footer/FooterComponent'
 import { FloatButton } from 'antd'
 import CardWeb from './component/Cards/CardWeb'
 import CardProfile from './component/Cards/CardProfile'
+import CardReseaux from './component/Cards/CardReseaux'
+import CardValeurs from './component/Cards/CardValeurs'
 
 function propos() {
   return (
@@ -23,15 +25,24 @@ function propos() {
                 url='/contact'
               />
         </div>
+        <div className='relative'>
+          <div className='absolute inset-0 bg-[url("./component/images/valeurs.png")] bg-cover bg-center filter blur-sm'></div>
+            <div className='relative flex justify-center items-center h-screen'>
+              <CardValeurs />
+            </div>
+          </div>
         <div>
-          <h1 className='text-[40px] text-center text-black flex justify-center font-semibold pb-2'>Nos membres</h1>
-          <div className='flex justify-center gap-8'>
+          <h1 className='text-[40px] text-center text-black flex justify-center font-semibold my-8'>Nos membres</h1>
+            <div className='flex justify-center gap-8'>
               <CardProfile 
                 imgSrc={require('../src/component/images/fallonflorentin.png')}
                 imgAlt='Directeur, Développeur web'
                 Name='Florentin Fallon'
                 Post='Directeur & Développeur web'
               />
+            </div>
+        <div>
+            <CardReseaux />
           </div>
         </div>
         <div>

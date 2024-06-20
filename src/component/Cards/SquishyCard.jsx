@@ -68,11 +68,26 @@ const Card = ({
           className="my-2 block origin-top-left font-mono text-6xl font-black leading-[1.2]"
         >
           {price}
+          <motion.span
+          initial={{ scale: 0.85 }}
+          variants={{
+            hover: {
+              scale: 1,
+            },
+          }}
+          transition={{
+            duration: 1,
+            ease: "backInOut",
+          }}
+          className="my-2 block origin-top-left font-mono text-xl font-black leading-[1.2]"
+        >
+          {"minimum"}
+        </motion.span>
         </motion.span>
         <ul>
           <li className="flex">
             <svg 
-              class="w-6 h-6 text-gray-800 dark:text-white mr-2 mb-4" 
+              class="w-6 h-6 text-gray-800 dark:text-white  mr-2 mb-4" 
               aria-hidden="true" 
               xmlns="http://www.w3.org/2000/svg" 
               width="24" 
@@ -81,7 +96,7 @@ const Card = ({
               viewBox="0 0 24 24"
             >
               <path 
-              stroke="currentColor" 
+              stroke="white" 
               stroke-linecap="round" 
               stroke-linejoin="round" 
               stroke-width="2" 
@@ -101,7 +116,7 @@ const Card = ({
                 viewBox="0 0 24 24"
             >
                 <path 
-                stroke="currentColor" 
+                stroke="white" 
                 stroke-linecap="round" 
                 stroke-linejoin="round" 
                 stroke-width="2" 
@@ -121,7 +136,7 @@ const Card = ({
               viewBox="0 0 24 24"
             >
               <path
-                stroke="currentColor"
+                stroke="white"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"

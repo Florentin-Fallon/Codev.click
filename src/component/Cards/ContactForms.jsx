@@ -12,21 +12,20 @@ function ContactForms() {
   };
 
   if (state.succeeded) {
-    return <div className='flex justify-center items-center h-screen pb-14 pt-14'>
-    <div className='bg-indigo-500 text-center p-16 rounded-xl w-[70%]'>
-      <p className='text-white text-4xl mb-4' id='contact'>Merci pour votre message !</p>
-      <p className='text-white text-lg text-center'>Nous vous répondrons dès que possible.</p>
-    </div>
-  </div>
-    
+    return <div className='flex justify-center items-center pb-56 pt-36'>
+              <div className='bg-transparent text-center p-16 rounded-xl w-[70%] shadow-2xl'>
+                <p className='text-white text-4xl mb-4' id='contact'>Merci pour votre message !</p>
+                <p className='text-white text-lg text-center'>Nous vous répondrons dès que possible.</p>
+              </div>
+            </div>;
   }
 
   return (
-    <div className='flex justify-center pb-24 pt-24'>
-      <div className='border border-transparent rounded-xl w-[50%] bg-indigo-500 p-8 shadow-2xl shadow-[#384454]'>
-        <h1 className='text-5xl text-center text-white mb-16' id='contact'>Contact</h1>
-        <div className="max-w-md mx-auto mb-32">
-          <form onSubmit={handleFormSubmit} className="mb-8">
+    <div className='flex justify-center pb-20 pt-20'>
+      <div className='rounded-xl w-[50%] bg-transparent shadow-2xl p-8'>
+        <h1 className='text-5xl text-center text-white mb-16' id='contact'>Contactez nous !</h1>
+        <div className="max-w-md mx-auto">
+          <form onSubmit={handleFormSubmit} className="mb-2">
             <div className="mb-4">
               <label htmlFor="email" className="block text-white text-sm font-semibold mb-2">Adresse e-mail:</label>
               <input
@@ -54,7 +53,7 @@ function ContactForms() {
                 errors={state.errors}
               />
             </div>
-            <button type="submit" disabled={state.submitting} className="bg-orange-500 hover:bg-orange-400 flex items-center justify-center text-white font-semibold py-2 px-4 rounded-lg w-full">
+            <button type="submit" disabled={state.submitting} className="bg-indigo-500 hover:bg-indigo-300 flex items-center justify-center text-white font-semibold py-2 px-4 rounded-lg w-full">
               Envoyer
             </button>
           </form>

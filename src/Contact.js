@@ -6,7 +6,9 @@ function Contact() {
   return (
     <div>
         <div>
-          <ContactForms />
+          <div className='bg-[url("./component/images/forme.png")] bg-cover bg-center'>
+              <ContactForms />
+          </div>
         </div>
       <div>
         <FooterComponent />

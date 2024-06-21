@@ -2,7 +2,7 @@
   "name": "codev.click",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.codev.click",
+  "homepage": "https://florentin-fallon.github.io/Codev.click/",
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
     "@coreui/coreui": "^5.0.2",

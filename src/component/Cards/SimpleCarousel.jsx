@@ -22,8 +22,8 @@ function SimpleCarousel({
   ];
 
   return (
-    <div className='my-24 p-8'>
-      <h1 className='text-black text-center text-3xl mt-16 mb-24'>{title}</h1>
+    <div className='my-12 p-8'>
+      <h1 className='text-black text-center text-3xl mb-24'>{title}</h1>
       <div className='flex flex-wrap justify-center'>
         {cards.map((card, index) => (
           card.imgSrc && card.imgAlt && (

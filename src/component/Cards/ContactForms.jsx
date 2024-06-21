@@ -22,12 +22,12 @@ function ContactForms() {
 
   return (
     <div className='flex justify-center pb-20 pt-20'>
-      <div className='rounded-xl w-[50%] bg-transparent shadow-2xl p-8'>
-        <h1 className='text-5xl text-center text-white mb-16' id='contact'>Contactez nous !</h1>
+      <div className='rounded-xl w-[50%] bg-white shadow-2xl p-8'>
+        <h1 className='text-5xl text-center text-black mb-16' id='contact'>Contactez nous !</h1>
         <div className="max-w-md mx-auto">
           <form onSubmit={handleFormSubmit} className="mb-2">
             <div className="mb-4">
-              <label htmlFor="email" className="block text-white text-sm font-semibold mb-2">Adresse e-mail:</label>
+              <label htmlFor="email" className="block text-black text-sm font-semibold mb-2">Adresse e-mail:</label>
               <input
                 id="email"
                 type="email"
@@ -41,7 +41,7 @@ function ContactForms() {
               />
             </div>
             <div className="mb-6">
-              <label htmlFor="message" className="block text-white text-sm font-semibold mb-2">Message:</label>
+              <label htmlFor="message" className="block text-black text-sm font-semibold mb-2">Message:</label>
               <textarea
                 id="message"
                 name="message"

@@ -4,6 +4,8 @@ import { FloatButton } from 'antd';
 import { Link } from 'react-router-dom';
 import SimpleCarousel from './component/Cards/SimpleCarousel';
 import { Tooltip } from 'react-tooltip';
+import ServiceCard from './component/Cards/ServiceCard';
+import { RiseOutlined } from '@ant-design/icons';
 
 function Decouverte() {
   return (
@@ -28,9 +30,30 @@ function Decouverte() {
             <p className='pb-4 text-justify font-light tracking-wide'>Chaque projet est unique. Je m'engage à fournir une attention personnalisée pour garantir un site moderne, technique et esthétique.</p>
             <p className='pb-4 text-justify font-light tracking-wide'>Faites confiance à Codev pour porter votre site web au plus haut niveau !</p>
             <div className='flex justify-center'>
-              <Link to="/contact"><button className='bg-indigo-500 p-3 rounded-xl text-white uppercase pb-2'>Contactez nous</button></Link>
+              <Link to="/contact"><button className='bg-indigo-500 hover:bg-indigo-300 p-3 rounded-xl text-white uppercase'>Contactez nous</button></Link>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='bg-indigo-500 p-8 my-12'>
+        <div className="text-center my-8">
+          <RiseOutlined  style={{fontSize: '45px', color: 'white', marginBottom:'30px'}}/>
+          <h2 className="text-4xl text-white font-semibold">Nos Services</h2>
+          <p className="text-white">Découvrez ce que nous pouvons faire pour vous</p>
+        </div>
+        <div className='flex justify-center flex-wrap my-8'>
+          <ServiceCard 
+            title="Conception personnalisée" 
+            description="Nous créons des designs uniques adaptés à votre marque et à vos besoins spécifiques." 
+          />
+          <ServiceCard 
+            title="Fonctionnalités avancées" 
+            description="Intégration de fonctionnalités avancées pour une expérience utilisateur optimale." 
+          />
+          <ServiceCard 
+            title="Intégration des réseaux sociaux" 
+            description="Connectez votre site avec les réseaux sociaux pour une meilleure visibilité." 
+          />
         </div>
       </div>
       <div>
@@ -43,6 +66,14 @@ function Decouverte() {
           imgSrc3={require('../src/component/images/Logo.png')}
           imgAlt3={'Agence Codev'}
         />
+      </div>
+      <div className='flex justify-center items-center bg-indigo-500 text-white py-8'>
+        <h3 className='text-2xl font-semibold mr-4'>Vous êtes toujours partant ?</h3>
+        <Link to="/contact">
+          <button className='bg-white text-indigo-500 hover:bg-gray-200 py-2 px-4 rounded-full'>
+            Contactez-nous
+          </button>
+        </Link>
       </div>
       <div>
         <FooterComponent />

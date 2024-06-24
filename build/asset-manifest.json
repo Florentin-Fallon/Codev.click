@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75d12a24.css",
-    "main.js": "/static/js/main.c6a5315c.js",
+    "main.css": "/static/css/main.facbf601.css",
+    "main.js": "/static/js/main.d0557644.js",
     "static/media/fallonflorentin.png": "/static/media/fallonflorentin.e9f6ff68ba60e2b3d19d.png",
     "static/media/pack-decouverte.png": "/static/media/pack-decouverte.625f032b2b8b9e8a1fa0.png",
     "static/media/valeurs.png": "/static/media/valeurs.08dbb85dc3d8962c64d6.png",
@@ -13,11 +13,11 @@
     "static/media/forme.png": "/static/media/forme.8ae82b5ab4f8600e478b.png",
     "static/media/avatar-N.png": "/static/media/avatar-N.4a1121412a152ab08b0a.png",
     "index.html": "/index.html",
-    "main.75d12a24.css.map": "/static/css/main.75d12a24.css.map",
-    "main.c6a5315c.js.map": "/static/js/main.c6a5315c.js.map"
+    "main.facbf601.css.map": "/static/css/main.facbf601.css.map",
+    "main.d0557644.js.map": "/static/js/main.d0557644.js.map"
   },
   "entrypoints": [
-    "static/css/main.75d12a24.css",
-    "static/js/main.c6a5315c.js"
+    "static/css/main.facbf601.css",
+    "static/js/main.d0557644.js"
   ]
 }

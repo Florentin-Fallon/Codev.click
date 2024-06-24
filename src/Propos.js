@@ -13,7 +13,7 @@ function propos() {
         <div className='bg-[url("./component/images/forme.png")] bg-center overflow-hidden'>
             <div className='pb-4 pt-24 flex justify-center'>
               <div className='h-36'>
-                <h1 className="text-[50px] text-center text-white font-semibold border-b-2 w-auto pb-2">Bienvenue à l'agence !</h1>
+                <h1 className="text-[50px] text-center text-red-300 font-semibold border-b-2 w-auto pb-2">Bienvenue à l'agence !</h1>
               </div>
             </div>
               <CardWeb

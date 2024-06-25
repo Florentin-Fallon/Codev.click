@@ -6,7 +6,7 @@ const Breadcrumbs = () => {
     const location = useLocation();
     const pathnames = location.pathname.split("/").filter((x) => x);
 
-    const specialPages = ["/confidentialites", "/mentions", "/condition", "/remboursement", "/amelioration"];
+    const specialPages = ["/confidentialites", "/mentions", "/condition", "/remboursement"];
 
     const isSpecialPage = specialPages.includes(location.pathname);
 

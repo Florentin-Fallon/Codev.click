@@ -19,7 +19,7 @@ function Amelioration() {
     </div>
     <div className='flex mx-8 my-8 shadow-xl rounded-xl'>
       <div className='flex items-center p-2'>
-        <img src={require('../src/component/images/propos.jpg')} alt="Amélioration" className="w-full h-[400px] object-cover rounded-xl" />
+        <img src={require('../src/component/images/ameliorationPic.png')} alt="Amélioration" className="w-full h-[400px] object-cover rounded-xl" />
       </div>
       <div className='flex flex-col justify-center mx-8 w-[90%] p-8'>
         <h1 className='font-semibold text-center text-xl pb-6'>Optimisation Expert de Votre Site Web</h1>
